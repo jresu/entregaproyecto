@@ -56,6 +56,16 @@ body{
     letter-spacing: .2em;
     display: flex;
 }
+
+.letra-galeria{
+    font-family: "Dancing Script";
+color: rgb(0, 0, 0);
+font-size: 23px;
+text-align: center;
+padding: 5px 10px;
+border-radius: 5px;
+background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+}
 .Text-hero a{
     font-family: "Dancing Script";
     color: #fff;
@@ -218,17 +228,87 @@ body{
     z-index: 0;
     transition: 0.1s ease;
 }
-.fa-facebook-f{
-    background: #3b5998;
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(14, 12, 12);
+    height: auto;
+width: 100vw;
+font-family: cursive;
+padding-top: 40px;
+color: rgb(156, 65, 65);
 }
-.fa-facebook-messenger{
-    background: #0084ff;
+.footer-content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+background: black;
 }
-.fa-whatsapp{
-    background: #25d366;
+.footer-content h4{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+
 }
-.social a:hover{
-    padding: 10px 25px;
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
 }
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    background-color: black;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials hover i{
+    color: aqua
+}
+.footer-bottom{
+background: #000;
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
 
 
